@@ -1,0 +1,25 @@
+[project]
+name = "Bouncer"
+version = "2.0.0"
+authors = [
+    { name = "Wouter Van den Broeck" },
+]
+description = "Compiles and installs a hosts file (on MacOS) that blocks malware hosts, ad servers and trackers."
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: MacOS",
+    "Programming Language :: Python :: 3.11",
+    "Typing :: Typed"
+]
+keywords = [
+    "hosts",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/wouter-vdb/bouncer"
+"Bug Tracker" = "https://github.com/wouter-vdb/bouncer/issues"
+
+[tool.black]
+target-version = ['py311']
